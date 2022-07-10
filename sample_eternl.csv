@@ -1,0 +1,24 @@
+Date,Sent Amount,Sent Currency,Received Amount,Received Currency,Fee Amount,Fee Currency,Label,Description,TxHash,TxType
+2021-02-09 09:28:53,,"ADA","49.400000","ADA","0.000000","ADA",,,"ec103814b9ccb1e305ce20d6a25e681d3735d2301d5bb631b8dfa0abb2394a99","Received Funds"
+2021-02-09 09:38:46,"2.000000","ADA",,"ADA","0.174433","ADA",,,"a079d8358d3ac98d677f6cecd8cb2b408764eb48db7bdb3cb4aeca1fe11a1f62","Internal Transfer - Deposit"
+2021-02-13 08:05:14,,"ADA","124.400000","ADA","0.000000","ADA",,,"f814c0c628e33c61136313108310de24854b5ca092e1be1d10a2496121457229","Received Funds"
+2021-05-27 20:22:51,"0.000000","ADA",,"ADA","0.175181","ADA",,,"1faddee7abf6464ca9af8cd34315c15ab78b8e221d279aee90528f5c3af15854","Internal Transfer"
+2021-06-04 22:22:59,"0.000000","ADA",,"ADA","0.172937","ADA",,,"deeb2a18d0f080de19f75a3eb5e2d60b9d563411d0f7176bef43e465e2a973e9","Internal Transfer"
+2021-06-05 06:37:45,"1.314000","ADA",,"ADA","0.168273","ADA",,,"99772ea457b2e73c156f30f655f0df9709e94282afd844b8492e974e076df4d3","Sent Funds"
+2021-07-09 06:58:31,"0.000000","ADA",,"ADA","0.175269","ADA",,,"252c4e6d7fac658030b7d50b17e78eca442e7a6327f7cd9c41a2fd479b3a9630","Internal Transfer"
+2021-09-01 17:41:27,"0.000000","ADA",,"ADA","0.172761","ADA",,,"46b6004456774e8a9e507744751b57812223298a3336aedbad790713d47cb322","Internal Transfer"
+2021-09-12 08:40:54,,"ADA","1.281480","ADA","0.000000","ADA",,,"e9fa9496237fc419e5882ea77302b7cb8f659c7842642502460cc15756a2a079","Received Funds and Tokens"
+2021-09-12 08:41:26,,"ADA","1.144443","ADA","0.000000","ADA",,,"e434f19c80adc3a1fb88417b3c5cac93c099297be60c85c0f05c360057721090","Received Funds and Tokens"
+2021-11-28 11:48:29,"0.000000","ADA",,"ADA","0.173093","ADA",,,"3f8fef1f6904ed356b02f30d2a345c91242dc56bf10d9372c76a3e455f0e8584","Internal Transfer"
+2022-01-22 09:44:57,"0.000000","ADA",,"ADA","0.175137","ADA",,,"8f08a193962dcceb82f0e03035ea703480ed43f460b51333e43d60059a8ea9a6","Internal Transfer"
+2022-01-25 08:44:13,,"ADA","21.222222","ADA","0.000000","ADA",,,"b1d55664fdc47b5275bc092972156dca436b80bb0aab04c2e90c9f6678092d55","Received Funds"
+2022-02-09 20:57:10,"0.000000","ADA",,"ADA","0.148317","ADA",,,"9c0135a6c1819e5eacb53313e6ddc596a9a5f5ea9201e84c0e7dfa0680b5be3d","Internal Transfer"
+2022-02-14 23:12:43,"0.000000","ADA",,"ADA","0.174805","ADA",,,"91c0410db1cbcd5d8e601da08122cdcb0e7b1180f388f0795fa2f0fa5cdbdd94","Internal Transfer"
+2022-03-02 07:00:02,"3.000000","ADA",,"ADA","0.167085","ADA",,,"d59d5a2b9fc1a9366529fe8fc23b923b0352b3761799081dbdeb8e82142fc8cc","Sent Funds"
+2022-03-02 07:03:50,,"ADA","1.244798","ADA","0.000000","ADA",,,"597a6a1dbf242bab42536b4e39b573add74ad00a3b217f24b02f4050e755f599","Received Funds and Tokens"
+2022-06-14 22:04:55,,"ADA","2.000000","ADA","0.173157","ADA",,,"49d79c33ec7dbc0a37de70f8602f2f363a9e7972008416e4cc20188fbee503dd","Internal Transfer - Deposit - Withdrawal"
+2021-02-24 22:44:52,,"ADA","1.622219","ADA","0","ADA","reward","reward - epoch: earned: 248 - spendable: 250",,
+2021-03-01 22:44:52,,"ADA","3.045237","ADA","0","ADA","reward","reward - epoch: earned: 249 - spendable: 251",,
+2021-03-06 22:44:52,,"ADA","2.217209","ADA","0","ADA","reward","reward - epoch: earned: 250 - spendable: 252",,
+2021-07-19 23:44:52,,"ADA","0.229180","ADA","0","ADA","reward","reward - treasury: spendable: 279",,
+
