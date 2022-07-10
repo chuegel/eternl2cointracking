@@ -1,10 +1,12 @@
 # eternl2cointracking
 
-`eternl2cointracking` converts a Eternl Wallet csv file to the csv header format used by CoinTracking:
+`eternl2cointracking` converts a [Eternl wallet](https://eternl.io/app/mainnet/welcome) csv exported file to the header format used by [CoinTracking](https://cointracking.info/):
 
 ```bash
 "Type", "Buy Amount", "Buy Currency", "Sell Amount", "Sell Currency", "Fee", "Fee Currency", "Exchange", "Trade-Group", "Comment", "Date"
 ```
+
+The generated file can then be imported into CoinTracking.
 
 ## Requirements
 
