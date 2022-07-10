@@ -32,7 +32,7 @@ optional arguments:
                         specify the Trading-Group
 ```
 
-Example:
+### Example
 
 ```bash
 python eternl2cointracking.py -f sample_eternl.csv -e "My ADA Wallet" -g Hodl
