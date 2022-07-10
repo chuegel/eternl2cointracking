@@ -91,7 +91,7 @@ Please see the [Known Issues](#Known-Issues)
 
 ## Known Issues
 
-The last row of the generated file is blank. This prevents a proper inmport into CoinTracking.
+The last row of the generated file is blank. This prevents a proper import into CoinTracking.
 Please use an editor to delete it.
 
 ## Contributing
