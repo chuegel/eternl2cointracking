@@ -1,5 +1,7 @@
 import pandas as pd
 import argparse
+import hashlib
+
 
 # Create the parser and add arguments
 parser = argparse.ArgumentParser()
@@ -41,10 +43,24 @@ df['Trade-Group'] = group
 
 # re-arrange positions of columns
 df = df[['Type','Buy Amount','Buy Currency','Sell Amount','Sell Currency','Fee','Fee Currency','Exchange','Trade-Group','Comment','Date','Tx-ID']]
+#df = df[['Type','Buy Amount','Buy Currency','Sell Amount','Sell Currency','Fee','Fee Currency','Exchange','Trade-Group','Comment','Date']]
 
 # set Type to "Staking" for staking rewards
 stake = (df['Comment'].astype(str).str.contains('reward - epoch', na=False)) 
 df.loc[stake, 'Type'] = 'Staking'
+
+# Eternl wallet does not export staking rewards with a Tx-ID. 
+# In order to detect duplicates when importing into CoinTracking, we must generate a TX-Id from the Comment column.
+
+# Convert column to string
+df['Buy Amount'] = df['Buy Amount'].astype(str)
+# Apply hashing function to the column
+hash =  df['Buy Amount'].apply(
+    lambda x: 
+        hashlib.sha256(x.encode()).hexdigest()
+)
+
+df.fillna({'Tx-ID':hash}, inplace=True)
 
 # set Type to Other Income for Catalyst Voting rewards
 catalyst = (df['Comment'].astype(str).str.contains('reward - treasury', na=False))
